@@ -245,7 +245,7 @@
     margin-top: 50px;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 850px) {
     .slider {
         width: 80vw;
         height: 90vh;
@@ -256,12 +256,12 @@
     }
 
     .manual-navigation {
-        margin-top: -280px;
+        margin-top: -680px;
         margin-left: 20px;
     }
 
     .navigation-auto {
-        margin-top: 128px;
+        margin-top: 250px;
         margin-left: 20px;
     }
 
@@ -285,11 +285,11 @@
     }
 
     .desc-insta {
-        margin-top: -350px;
+        margin-top: -390px;
     }
     
     .desc-musta {
-        margin-top: -350px;
+        margin-top: -390px;
     }
     
     .line {
