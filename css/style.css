@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #09000c;
+    color: #fff;
+}
+
+.page {
+    width: 90%;
+    margin: auto;
+}
+
+nav ul {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+ul a {
+    text-decoration: none;
+    color: #d28eff;
+    padding: 10px;
+}
+
+ul a:hover {
+    background-color: #1c002e;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#title {
+    text-align: center;
+    margin: 20px;
+}
+
+.image {
+    z-index: 1;
+    width: 60%;
+    margin-right: 20px;
+}
+
+.image img {
+    width: 100%;
+    transition: .6s;
+}
+
+.profile {
+    display: flex;
+    background-color: #100218;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+
+}
+
+.description {
+    line-height: 35px;
+    font-size: 13pt;
+}
+
+p strong {
+    font-size: 15pt;
+    text-transform: uppercase;
+}
+
+#description {
+    margin-top: 20px;
+}
+
+
+p a {
+    color: #7700ff;
+    text-decoration: none;
+}
+
+
+
+@media (max-width: 700px) {
+    .image img:hover {
+        width: 800%;
+        transition: .6s;
+    }
+
+    .image-contact img:hover {
+        margin-top: 10px;
+        width: 50%;
+        transition: .6s;
+    }
+
+    .git {
+        width: 200%;
+    }
+
+    .linkedin {
+        width: 200%;
+    }
+
+    .block1 {
+        margin-top: -90px;
+        text-align: left;
+    }
+
+    .email {
+        width: 200%;
+    }
+
+    .whats {
+        width: 200%;
+    }
+
+    .block2 {
+        margin-top: -90px;
+        text-align: left;
+        font-size: 11pt;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+}

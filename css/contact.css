@@ -1,0 +1,99 @@
+.profile-contact {
+    height: 90vh;
+    display: flex;
+    background-color: #100218;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+
+}
+
+.image-contact {
+    position: absolute;
+    text-align: center;
+    top:0;
+    width: 100%;
+    height: 50%;
+}
+
+.image-contact img {
+    margin-top: 10px;
+    width: 20%;
+    transition: .6s;
+}
+
+.contact {
+    width: 100%;
+    height: 45%;
+    bottom: 0;
+    position: absolute;
+    display: flex;
+    text-align: center;
+}
+
+.contact a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact img {
+    width: 25%;
+}
+
+.linkedin {
+    margin-top: 70px;
+}
+
+.whats {
+    margin-top: 30px;
+}
+.block1 {
+    margin-top: auto;
+    width: 50%;
+}
+
+.block2{
+    margin-top: auto;
+    width: 50%;
+}
+
+.block2 img {
+    width: 10%;
+}
+
+@media (max-width: 700px) {
+    .image-contact img:hover {
+        margin-top: 10px;
+        width: 50%;
+        transition: .6s;
+    }
+
+    .git {
+        width: 200%;
+    }
+
+    .linkedin {
+        width: 200%;
+    }
+
+    .block1 {
+        margin-top: -60px;
+        text-align: left;
+    }
+
+    .email {
+        width: 200%;
+    }
+
+    .whats {
+        width: 200%;
+    }
+
+    .block2 {
+        margin-top: -60px;
+        text-align: left;
+        font-size: 11pt;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+}

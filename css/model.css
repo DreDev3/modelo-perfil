@@ -1,0 +1,300 @@
+.model-page {
+    background-color: #100218;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.model-page h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.slider {
+    margin: 0 auto;
+    width: 60vw;
+    height: 70vh;
+    overflow: hidden;
+}
+
+.slides {
+    width: 400%;
+    height: 70vh;
+    display: flex;
+}
+
+.slides input {
+    display: none;
+}
+
+.slide {
+    width: 25%;
+    position: relative;
+    transition: 1s;
+}
+
+.slide img {
+    width: 60vw;
+}
+
+
+.manual-navigation {
+    position: absolute;
+    width: 60vw;
+    margin-top: -30px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn {
+    border: 2px solid #7700ff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .6s;
+}
+
+.manual-btn:not(:last-child) {
+    margin-right: 40px;
+}
+
+.manual-btn:hover {
+    background-color: #100218;
+}
+
+#radio1:checked ~ .first {
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .first {
+    margin-left: -50%;
+}
+
+#radio4:checked ~ .first {
+    margin-left: -75%;
+}
+
+.navigation-auto div {
+    border: 2px solid #240038;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .6s;
+}
+
+.navigation-auto {
+    position: absolute;
+    width: 60vw;
+    margin-top: 395px;
+    display:flex;
+    justify-content: center;
+}
+
+.navigation-auto div:not(:last-child) {
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1 {
+    background-color: #240038;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2 {
+    background-color: #240038;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3 {
+    background-color: #240038;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4 {
+    background-color: #240038;
+}
+/* [FIM] Slide Cópia Instagram */
+
+.title-musta {
+    margin-top: 50px;
+}
+
+.model-musta {
+    margin: 0 auto;
+    width: 60vw;
+    height: 70vh;
+    overflow: hidden;
+}
+
+.slides-musta {
+    width: 400%;
+    height: 70vh;
+    display: flex;
+}
+
+.slides-musta input{
+    display: none;
+}
+
+.slideM {
+    width: 25%;
+    position: relative;
+    transition: 1s;
+}
+
+.slideM img {
+    width: 60vw;
+}
+
+.manu-navigation {
+    position: absolute;
+    width: 60vw;
+    margin-top: -30px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-bt {
+    border: 2px solid #7700ff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .6s;
+}
+
+.manual-bt:not(:last-child) {
+    margin-right: 40px;
+}
+
+.manual-bt:hover {
+    background-color: #100218;
+}
+
+#radioM1:checked ~ .firstM {
+    margin-left: 0;
+}
+
+#radioM2:checked ~ .firstM {
+    margin-left: -25%;
+}
+
+#radioM3:checked ~ .firstM {
+    margin-left: -50%;
+}
+
+#radioM4:checked ~ .firstM {
+    margin-left: -75%;
+}
+
+#radioM5:checked ~ .firstM {
+    margin-left: -100%;
+}
+
+.nav-auto div{
+    border: 2px solid #240038;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .6s;
+}
+
+.nav-auto {
+    position: absolute;
+    width: 60vw;
+    margin-top: 395px;
+    display:flex;
+    justify-content: center;
+}
+
+
+.nav-auto div:not(:last-child) {
+    margin-right: 40px;
+}
+
+#radioM1:checked ~ .nav-auto .auto-bt1 {
+    background-color: #240038;
+}
+
+#radioM2:checked ~ .nav-auto .auto-bt2 {
+    background-color: #240038;
+}
+
+#radioM3:checked ~ .nav-auto .auto-bt3 {
+    background-color: #240038;
+}
+
+#radioM4:checked ~ .nav-auto .auto-bt4 {
+    background-color: #240038;
+}
+
+#radioM5:checked ~ .nav-auto .auto-bt5 {
+    background-color: #240038;
+}
+/* [FIM] Slide Modelo Mustang page */
+
+.desc-insta {
+    margin-top: 20px;
+}
+
+.desc-musta {
+    margin-top: 20px;
+}
+
+.line {
+    width: 100%;
+    border: 1px solid #7700ff;
+    margin-top: 50px;
+}
+
+@media (max-width: 700px) {
+    .slider {
+        width: 80vw;
+        height: 90vh;
+    }
+
+    .slide img {
+        width: 80vw;
+    }
+
+    .manual-navigation {
+        margin-top: -210px;
+        margin-left: 20px;
+    }
+
+    .navigation-auto {
+        margin-top: 167px;
+        margin-left: 20px;
+    }
+
+    .model-musta {
+        width: 80vw;
+        height: 90vh;
+    }
+
+    .slideM img {
+        width: 80vw;
+    }
+
+    .manu-navigation {
+        margin-top: -210px;
+        margin-left: 20px;
+    }
+
+    .nav-auto {
+        margin-top: 167px;
+        margin-left: 20px;
+    }
+
+    .desc-insta {
+        margin-top: -270px;
+    }
+    
+    .desc-musta {
+        margin-top: -270px;
+    }
+    
+    .line {
+        width: 100%;
+        border: 1px solid #7700ff;
+        margin-top: 50px;
+    }
+}
